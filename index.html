@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive Moto</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
+    <!-- Style-and-Media -->
+    <link rel="stylesheet" href="./style.css/Swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style.css/Style.css">
+    <link rel="stylesheet" href="./style.css/Media.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-items">
+                <a class="header-items-link" href="#">Магазины</a>
+                <a class="header-items-link" href="#">Акции</a>
+                <a class="header-items-link" href="#">Доставка и оплата</a>
+                <a class="header-logo" href="./index.html"><img src="./icons/logo.svg" alt="logo"></a>
+                <a class="header-geo-link" href="#"><img src="./icons/geo.svg" alt="geo">Москва, ул. Науки 25</a>
+                <!-- Burger -->
+                <div class="menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Buger-Menu -->
+                <div class="menu">
+                    <div class="menu-wrapper">
+                        <ul>
+                            <li><a href="#"><img src="./icons/head.svg" alt="head">Войти</a></li>
+                            <li><a href="#"><img src="./icons/head.svg" alt="head">Регистрация</a></li>
+                            <li><a href="#"><img src="./icons/heart.svg" alt="heart">Избранное</a></li>
+                            <li><a href="#"><img src="./icons/Backet.svg" alt="Backet">Корзина</a></li>
+                            <li><a href="#"><img src="./icons/score.svg" alt="score">Магазины</a></li>
+                            <li><a href="#"><img src="./icons/percent.svg" alt="percent">Акции</a></li>
+                            <li><a href="#"><img src="./icons/Group 15.svg" alt="Group 15">Доставка и оплата</a></li>
+                            <li><a class="menu-link-items" href="#">Квадроциклы</a></li>
+                            <li><a class="menu-link-items" href="#">Катера</a></li>
+                            <li><a class="menu-link-items" href="./index2.html">Гидроциклы</a></li>
+                            <li><a class="menu-link-items" href="#">Лодки</a></li>
+                            <li><a class="menu-link-items" href="#">Вездеходы</a></li>
+                            <li><a class="menu-link-items" href="#">Снегоходы</a></li>
+                            <li><a class="menu-link-items" href="#">Двигатели</a></li>
+                            <li><a class="menu-link-items" href="#">Запчасти</a></li>
+                        </ul>
+                        <div class="menu-wrapper-text">
+                            <span>Москва,<br> ул. Науки 25</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile-Logo-320px -->
+                <div class="mobile-logo">
+                    <a href="./index.html"><img src="./icons/DRIVE MOTO.svg" alt="DRIVE MOTO"></a>
+                </div>
+                <!-- block-icons-Header -->
+                <div class="block-icons">
+                    <img src="./icons/heart.svg" alt="heart">
+                    <img src="./icons/head.svg" alt="head">
+                    <img src="./icons/Backet.svg" alt="Backet">
+                    <div class="b-icons-title">
+                        <span>1</span>
+                    </div>
+                </div>
+            </div>
+            <!-- NavBar -->
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a class="nav-items" href="#">Квадроциклы</a></li>
+                    <li><a class="nav-items" href="#">Катера</a></li>
+                    <li><a class="nav-items" href="./index2.html">Гидроциклы</a></li>
+                    <li><a class="nav-items" href="#">Лодки</a></li>
+                    <li><a class="nav-items" href="#">Вездеходы</a></li>
+                    <li><a class="nav-items" href="#">Снегоходы</a></li>
+                    <li><a class="nav-items" href="#">Двигатели</a></li>
+                    <li><a class="nav-items" href="#">Запчасти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <!-- Main-Slider -->
+                <div class="slider-one-inner">
+                    <div class="wrapper-slider">
+                        <div class="slider">
+                            <div class="item">
+                                <img class="hero-img" src="./img/slider.jpg" alt="slider">
+                            </div>
+                            <div class="item">
+                                <img class="hero-img" src="./img/slider.jpg" alt="slider">
+                            </div>
+                            <div class="item">
+                                <img class="hero-img" src="./img/slider.jpg" alt="slider">
+                            </div>
+                            <div class="item">
+                                <img class="hero-img" src="./img/slider.jpg" alt="slider">
+                            </div>
+                            <div class="item">
+                                <img class="hero-img" src="./img/slider.jpg" alt="slider">
+                            </div>
+                            <div class="item">
+                                <img class="hero-img" src="./img/slider.jpg" alt="slider">
+                            </div>
+                            <!-- Кнопка-Next -->
+                            <!-- Кнопка-Prev -->
+                            <a class="prev" onclick="minusSlide()"><img src="./icons/Vector-prev.svg" alt=""></a>
+                            <a class="next" onclick="plusSlide()"><img src="./icons/Vector-next.svg" alt=""></a>
+                        </div>
+                        <!-- Slider-Dots -->
+                        <div class="slider-dots">
+                            <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+                            <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+                            <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+                            <span class="slider-dots_item" onclick="currentSlide(4)"></span>
+                            <span class="slider-dots_item" onclick="currentSlide(5)"></span>
+                            <span class="slider-dots_item" onclick="currentSlide(6)"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main-Card-Top -->
+                <div class="main-card">
+                    <div class="main-card-wrapper">
+                        <div class="card-card">
+                            <div class="header-card">
+                                <div class="box-card-one">
+                                    <span>акция</span>
+                                </div>
+                                <div class="box-card-two">
+                                    <img src="./icons/Group Sale.svg" alt="Group Sale">
+                                    <img class="img-box-two" src="./icons/card-icons.svg" alt="card-icons">
+                                </div>
+                            </div>
+                            <div class="card-head-img">
+                                <img src="./img/Suzuki DF9.9BRS.png" alt="Suzuki DF9.9BRS">
+                            </div>
+                            <div class="box-title">
+                                <h4 class="box-title-logo">Лодочный мотор Suzuki DF9.9BRS</h4>
+                            </div>
+                            <div class="footer-main-box">
+                                <p>Акция действует до</p>
+                                <span>31.08.2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--- Search-Block --->
+            <div class="container-search">
+                <div class="search-block">
+                    <ul class="search-list">
+                        <li><a href="#">Поиск по номеру</a></li>
+                        <li><a href="#">Поиск по марке</a></li>
+                        <li><a href="#">Поиск по названию товара</a></li>
+                    </ul>
+                    <div class="form-search">
+                        <form class="main-form-inputs">
+                            <input class="search" type="text" placeholder="Введите марку">
+                            <img class="icon-search" src="./icons/search.svg" alt="search">
+                            <button class="search-btn">искать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Card-Main -->
+            <div class="container-card">
+                <div class="container-wrapp">
+                    <div class="wrapper">
+                        <div class="wrapp-card">
+                            <h4 class="wrapp-text">Квадроциклы</h4>
+                            <img class="wrapp-img" src="./img/CFMOTO-X6-EPS.png" alt="CFMOTO-X6-EPS">
+                            <a class="wrapp-link" href="#">Подробее <img class="wrapp-icon" src="./icons/Back.svg"
+                                    alt="Back"></a>
+                        </div>
+                        <!--- Card-Main-Two --->
+                        <div class="wrapp-card">
+                            <h4 class="wrapp-text">Гидроциклы</h4>
+                            <img class="wrapp-img-two" src="./img/jet_ski_PNG90.png" alt="jet_ski_PNG90">
+                            <a class="wrapp-link" href="#">Подробее <img class="wrapp-icon" src="./icons/Back.svg"
+                                    alt="Back"></a>
+                        </div>
+                        <!--- Card-Main-Three --->
+                        <div class="wrapp-card">
+                            <h4 class="wrapp-text">Катера</h4>
+                            <img class="wrapp-img-three" src="./img/boat_PNG36.png" alt="boat_PNG36">
+                            <a class="wrapp-link" href="#">Подробее <img class="wrapp-icon" src="./icons/Back.svg"
+                                    alt="Back"></a>
+                        </div>
+                        <!--- Card-Main-Four --->
+                        <div class="wrapp-card">
+                            <h4 class="wrapp-text">Снегоходы</h4>
+                            <img class="wrapp-img-four" src="./img/rmvector551.png" alt="rmvector551">
+                            <a class="wrapp-link" href="#">Подробее <img class="wrapp-icon" src="./icons/Back.svg"
+                                    alt="Back"></a>
+                        </div>
+                        <!--- Card-Main-Five --->
+                        <div class="wrapp-card">
+                            <h4 class="wrapp-text">Вездеходы</h4>
+                            <img class="wrapp-img-five" src="./img/Maverick-X3-X-rc-TURBO-R.png"
+                                alt="Maverick-X3-X-rc-TURBO-R">
+                            <a class="wrapp-link" href="#">Подробее <img class="wrapp-icon" src="./icons/Back.svg"
+                                    alt="Back"></a>
+                        </div>
+                        <!--- Card-Main-Six --->
+                        <div class="wrapp-card">
+                            <h4 class="wrapp-text">Двигатели</h4>
+                            <img class="wrapp-img-six" src="./img/motors.png" alt="motors">
+                            <a class="wrapp-link" href="#">Подробее <img class="wrapp-icon" src="./icons/Back.svg"
+                                    alt="Back"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---- Main-link ---->
+            <div class="section-link">
+                <div class="wrapper-link-title">
+                    <h3 class="main-link-title">Популярные товары</h3>
+                </div>
+                <div class="wrapper-link">
+                    <ul class="wrapper-list">
+                        <li><a class="items" href="#">запчасти</a></li>
+                        <li><a class="items" href="#">моторы</a></li>
+                        <li><a class="items" href="#">шины </a></li>
+                        <li><a class="items" href="#">электроника</a></li>
+                        <li><a class="items" href="#">инструменты</a></li>
+                        <li><a class="items" href="#">аксессуары </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Section -->
+    <section class="section">
+        <div class="container">
+            <!-- Swiper-Slider -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-block-one">
+                            <div class="content-hover">
+                                <a href="#">посмотреть товар</a>
+                            </div>
+                            <div class="box-icon">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </div>
+                            <div class="box-img">
+                                <img src="./img/cq5dam.png" alt="cq5dam">
+                            </div>
+                            <div class="box-title">
+                                <p>Водонепроницаемый Рюкзак</p>
+                                <span>9 800 ₽</span>
+                            </div>
+                            <div class="box-icon-wrapp __one">
+                                <div class="box-wrap">
+                                    <img src="./icons/backet-two.svg" alt="backet-two">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Swiper-Slider-Card-2 -->
+                    <div class="swiper-slide">
+                        <div class="slide-block-one">
+                            <div class="content-hover">
+                                <a href="#">посмотреть товар</a>
+                            </div>
+                            <div class="box-icon-two">
+                                <div class="box-sale">
+                                    <span>SALE</span>
+                                </div>
+                                <div class="box-icon-heart heart__content">
+                                    <img src="./icons/heart.svg" alt="heart-icon">
+                                </div>
+                            </div>
+                            <div class="box-img">
+                                <img src="./img/jaket.png" alt="jaket">
+                            </div>
+                            <div class="box-title">
+                                <p>Спасательный жилет BRP Men's Airflow PFD</p>
+                                <span>6 900 ₽</span>
+                            </div>
+                            <div class="box-icon-wrapp">
+                                <div class="box-wrap">
+                                    <img src="./icons/backet-two.svg" alt="backet-two">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Swiper-Slider-Card-3 -->
+                    <div class="swiper-slide">
+                        <div class="slide-block-one">
+                            <div class="content-hover">
+                                <a href="#">посмотреть товар</a>
+                            </div>
+                            <div class="box-icon">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </div>
+                            <div class="box-img">
+                                <img src="./img/s-l225.png" alt="s-l225">
+                            </div>
+                            <div class="box-title">
+                                <p>BRP Audio-Premium System</p>
+                                <span>68 000 ₽</span>
+                            </div>
+                            <div class="box-icon-wrapp __one">
+                                <div class="box-wrap">
+                                    <img src="./icons/backet-two.svg" alt="backet-two">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Swiper-Slider-Card-4 -->
+                    <div class="swiper-slide">
+                        <div class="slide-block-one">
+                            <div class="content-hover">
+                                <a href="#">посмотреть товар</a>
+                            </div>
+                            <div class="box-icon-two">
+                                <div class="box-sale">
+                                    <span>SALE</span>
+                                </div>
+                                <div class="box-icon-heart heart__content">
+                                    <img src="./icons/heart.svg" alt="heart-icon">
+                                </div>
+                            </div>
+                            <div class="box-img">
+                                <img src="./img/s-l1600.png" alt="s-l1600">
+                            </div>
+                            <div class="box-title-card">
+                                <p>Спасательное <br> снаряжение</p>
+                                <span>нет в наличии</span><br>
+                                <a href="#">Сообщить о поступлении</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Кнопка-Next -->
+                <!-- Кнопка-Prev -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <!---- Section-Btn ---->
+            <div class="section-btn">
+                <button class="btn-card-section">Показать еще</button>
+            </div>
+            <!-- Baner -->
+            <div class="baner-wrapper">
+                <img class="b-img" src="./img/CFMOTO-X6-EPS.png" alt="CFMOTO-X6-EPS">
+                <img class="b-img-two" src="./img/Maverick-URBO-R-Carbon.png" alt="Maverick-URBO-R-Carbon">
+                <p class="b-title">CКИДКИ на все запчасти до 70%</p>
+                <button class="baner-btn">ПОСМОТЕТЬ ВСЕ</button>
+            </div>
+            <!-- Main-Link-Copy -->
+            <div class="section-link">
+                <div class="wrapper-link-title">
+                    <h3 class="main-link-title">С этим товаром покупают</h3>
+                </div>
+                <div class="wrapper-link">
+                    <ul class="wrapper-list">
+                        <li><a class="items" href="#">запчасти</a></li>
+                        <li><a class="items" href="#">моторы</a></li>
+                        <li><a class="items" href="#">шины </a></li>
+                        <li><a class="items" href="#">электроника</a></li>
+                        <li><a class="items" href="#">инструменты</a></li>
+                        <li><a class="items" href="#">аксессуары </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Last-Slider -->
+            <div class="swiper mySwiper slider-footer">
+                <div class="swiper-wrapper slider-two-container">
+                    <div class="swiper-slide slider-wrapper">
+                        <div class="slide-block-one">
+                            <div class="content-hover">
+                                <a href="#">посмотреть товар</a>
+                            </div>
+                            <div class="box-icon-two">
+                                <div class="box-sale">
+                                    <span>SALE</span>
+                                </div>
+                                <div class="box-icon-heart heart__content">
+                                    <img src="./icons/heart.svg" alt="heart-icon">
+                                </div>
+                            </div>
+                            <div class="box-img-two">
+                                <img src="./img/BRP Audio.png" alt="BRP Audio">
+                            </div>
+                            <div class="box-title-card2">
+                                <p>BRP Audio-портативная система</p>
+                                <span>нет в наличии</span><br>
+                                <a href="#">Сообщить о поступлении</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last-Slider-Card-2 -->
+                    <div class="swiper-slide slider-wrapper">
+                        <div class="slide-block-one">
+                            <div class="content-hover">
+                                <a href="#">посмотреть товар</a>
+                            </div>
+                            <div class="box-icon">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </div>
+                            <div class="box-img-three">
+                                <img src="./img/Garmin Echomap Plus.png" alt="Garmin Echomap Plus">
+                            </div>
+                            <div class="slide-box-title">
+                                <p>Garmin Echomap Plus 62cv</p>
+                                <span>45 800 ₽</span>
+                            </div>
+                            <div class="box-icon-wrapp-three">
+                                <div class="box-wrap">
+                                    <img src="./icons/backet-two.svg" alt="backet-two">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last-Slider-Card-3 -->
+                    <div class="swiper-slide slider-wrapper">
+                        <div class="slide-block-one">
+                            <div class="content-hover">
+                                <a href="#">посмотреть товар</a>
+                            </div>
+                            <div class="box-icon-two">
+                                <div class="box-sale">
+                                    <span>SALE</span>
+                                </div>
+                                <div class="box-icon-heart heart__content">
+                                    <img src="./icons/heart.svg" alt="heart-icon">
+                                </div>
+                            </div>
+                            <div class="box-img-two-three">
+                                <img src="./img/RF D.E.S.S.TM Key.png" alt="D.E.S.S.TM ">
+                            </div>
+                            <div class="box-title-card2">
+                                <p>RF D.E.S.S.TM Key</p>
+                                <span>нет в наличии</span><br>
+                                <a href="#">Сообщить о поступлении</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last-Slider-Card-4 -->
+                    <div class="swiper-slide slider-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-block-one">
+                                <div class="content-hover">
+                                    <a href="#">посмотреть товар</a>
+                                </div>
+                                <div class="box-icon">
+                                    <img src="./icons/heart.svg" alt="heart">
+                                </div>
+                                <div class="box-img-four">
+                                    <img src="./img/cq5dam.web.png" alt="cq5dam.web">
+                                </div>
+                                <div class="box-title">
+                                    <p>Мужской костюм 3мм</p><br>
+                                    <span>7 000 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Кнопка-Next -->
+                <!-- Кнопка-Prev -->
+                <div class="swiper-button-next next-btn"></div>
+                <div class="swiper-button-prev prev-btn"></div>
+                <div class="swiper-pagination boxx"></div>
+            </div>
+            <!---- Section-Btn-320px ---->
+            <div class="section-btn-mobile">
+                <button class="btn-card-section">Показать еще</button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <!-- Footer-block-one -->
+                    <div class="footer-block-one">
+                        <div class="block-one-text">
+                            <h5>Подпишитесь на нашу рассылку и узнавайте о акция быстрее</h5>
+                        </div>
+                        <div class="form">
+                            <form class="footer-form">
+                                <input type="email" placeholder="Введите ваш e-mail:">
+                                <button class="footer-btn">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Accordion-320px/375px/425px -->
+                    <div class="accordion-wrapper">
+                        <div class="accordion-item">
+                            <div class="accordion-title">Информация
+                                <img class="icon-down" src="./icons/chevron-down.svg" alt="">
+                                <img class="icon-up" src="./icons/chevron-up.svg" alt="">
+                            </div>
+                            <div class="accordion-content">
+                                <a href="#">О компании</a>
+                                <a href="#">Контакты</a>
+                                <a href="#">Акции</a>
+                                <a href="#">Магазины</a>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-title">Интернет-магазин
+                                <img class="icon-down" src="./icons/chevron-down.svg" alt="">
+                                <img class="icon-up" src="./icons/chevron-up.svg" alt="">
+                            </div>
+                            <div class="accordion-content">
+                                <a href="#">Доставка и самовывоз</a>
+                                <a href="#">Оплата</a>
+                                <a href="#">Возврат-обмен</a>
+                                <a href="#">Новости</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer-block-Two -->
+                    <div class="footer-block-two">
+                        <h5>Информация</h5>
+                        <ul>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Акции</a></li>
+                            <li><a href="#">Магазины</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-block-two">
+                        <h5>Интернет-магазин</h5>
+                        <ul>
+                            <li><a href="#">Доставка и самовывоз</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Возврат-обмен</a></li>
+                            <li><a href="#">Новости</a></li>
+                        </ul>
+                    </div>
+                    <!-- Social-Networks -->
+                    <div class="social">
+                        <a href="#"><img src="./icons/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="./icons/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="./icons/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="./icons/youtube.svg" alt="youtube"></a>
+                    </div>
+                </div>
+                <!-- Footer-block-Three -->
+                <div class="footer-block-three">
+                    <a href="#">Договор оферты</a>
+                    <a href="#">Политика обработки персональных данных</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./app.js/Swiper-bundle.min.js"></script>
+    <script src="./app.js/Main.js"></script>
+    <script src="./app.js/Script.js"></script>
+    <script src="./app.js/Slider.js"></script>
+</body>
+
+</html>
